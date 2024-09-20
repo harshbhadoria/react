@@ -2,13 +2,12 @@ import Chai from "./Chai"
 
 
 function App() {
-
+  const username = "Harsh BHadoria"
   return (
     <>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, obcaecati?
-    </p>
+    <p>Lorem ipsum dolor sit.</p>
     <Chai/>
-    <h4>Raju Naan</h4>
+    <h4>From Kalyug | React with {username}</h4>
     </>
   )
 }
