@@ -1,1 +1,1 @@
-test
+Create project with Vite + React
