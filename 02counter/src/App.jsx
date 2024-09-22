@@ -8,17 +8,51 @@ function App() {
 
   let  [counter, setCounter] = useState(9)
 
-  // let counter  = 15
+  // if(){
 
-  const addValue = () => {
-    // counter++
-    // console.log("Clicked", counter);
-    setCounter(++counter)
-  }
+    // if(counter > 0 && counter < 20){
+    //   var addValue = () => {
+    //     setCounter(++counter)
+    //     console.log("clicked for add", counter);
+        
+    //   }
 
-  const removeValue = () => {
-    setCounter(--counter)
-  }
+    //   var removeValue = () => {
+    //     setCounter(--counter)
+    //     console.log("clicked for add", counter);
+    //   }
+    // }else if (counter == 0) {
+    //   var addValue = () => {
+    //     setCounter(++counter)
+    //     console.log("clicked for add", counter);
+        
+    //   }
+    // } else if (counter == 20) {
+    //   var removeValue = () => {
+    //     setCounter(--counter)
+    //     console.log("clicked for add", counter);
+    //   }
+    // }
+    if (counter >= 0 && counter <= 20) {
+      var updateCounter = (increment) => {
+        if (increment) {
+          if (counter < 20) {
+            setCounter(++counter);
+            console.log("clicked for add", counter);
+          }
+        } else {
+          if (counter > 0) {
+            setCounter(--counter);
+            console.log("clicked for remove", counter);
+          }
+        }
+      };
+    
+      var addValue = () => updateCounter(true);
+      var removeValue = () => updateCounter(false);
+    }
+
+  // }
 
   return (
     <>
