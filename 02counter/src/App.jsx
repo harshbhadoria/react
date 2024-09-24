@@ -34,7 +34,7 @@ function App() {
     //   }
     // }
     if (counter >= 0 && counter <= 20) {
-      var updateCounter = (increment) => {
+      var updateCounter = (increment) => { 
         if (increment) {
           if (counter < 20) {
             setCounter(++counter);
