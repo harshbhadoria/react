@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-fuchsia-800"
         style={{
             backgroundImage: `url('https://nordicapis.com/wp-content/uploads/10-APIs-For-Currency-Exchange-Rates-1024x576.jpg')`,
         }}
