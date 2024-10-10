@@ -1,4 +1,4 @@
-Create project with Vite + React <br>
+Create project React <br>
 01viteReact <br>
 02Counter <br>
 03Tailwind <br>
